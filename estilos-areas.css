@@ -1,0 +1,126 @@
+/*PERSONALIZACIÓN DE ANIMACIONES*/
+.animate__animated .animate__lightSpeedInLeft{
+    --animate-duration:1s;
+    --animate-delay:3s;
+}
+.animate__animated .animate__lightSpeedInRight{
+    --animate-duration:1s;
+    --animate-delay:3s;
+}
+
+/*ESTILOS ÚNICOS*/
+#override #caja-procesal{
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.8), rgba(158,158,158,0.5),rgba(0,0,0,0.8)), url(img/areas/procesal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 550px;
+    color:#ffffff;
+    position:relative;
+}
+#override #caja-intelectual{
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.8), rgba(158,158,158,0.5),rgba(0,0,0,0.8)), url(img/areas/intelectual.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 550px;
+    color:#ffffff;
+    position:relative;
+}
+#override #caja-notarial{
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.8), rgba(158,158,158,0.5),rgba(0,0,0,0.8)), url(img/areas/notarial.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 550px;
+    color:#ffffff;
+    position:relative;
+}
+#override #caja-corporativo{
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.8), rgba(158,158,158,0.5),rgba(0,0,0,0.8)), url(img/areas/corporativo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 550px;
+    color:#ffffff;
+    position:relative;
+}
+#override #caja-inmobiliario{
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.8), rgba(158,158,158,0.5),rgba(0,0,0,0.8)), url(img/areas/inmobiliario.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 550px;
+    color:#ffffff;
+    position:relative;
+}
+#override #caja-comercio{
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.8), rgba(158,158,158,0.5),rgba(0,0,0,0.8)), url(img/areas/comercio.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 550px;
+    color:#ffffff;
+    position:relative;
+}
+/*ESTILOS GENERALES*/
+#override nav{
+    background-color: rgb(0,0,0);
+}
+#override #descripcion{    
+    margin-top: 80px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+#override #contacto{
+    border-style: solid;
+    border-color: #ffffff;
+    padding:6px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 100%;    
+    background-color: rgba(0,0,0,0.3);
+
+}
+#override #contacto p{
+    margin:5px;
+}
+
+
+/*MEDIA QUERIES*/
+@media(max-width:576px){
+    #override #contacto{
+        width: 100%;
+    }
+}
+@media(min-width:768px){
+    #override #contacto{
+        width: 60%;
+    }
+}
+@media(min-width:992px){
+    #override #contacto{
+        width: 50%;
+    }
+}
+@media(min-width:1200px){
+    #override #descripcion{
+        position:absolute;
+        width:50%;
+        bottom:30px;
+        top:auto;
+        padding:20px;
+    }
+    #override #contacto{
+        padding:0;
+        position: absolute;        
+        width: auto;
+        right:0;
+        bottom:0;
+        margin:50px;           
+
+    }
+
+}
