@@ -52,6 +52,10 @@
     filter:brightness(50%);
 }
 /*CONTENIDO*/
+#override #contenido p{
+    text-align: left;
+    font-size: 19px;
+}
 #override .section_1{
     text-align: center;
     background-color: #216869;
@@ -110,7 +114,7 @@
     transform: scale(1.1);
 }
 #override h2{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
 }
 #override h3{
@@ -163,5 +167,12 @@
     #override .frase{
         top:20%;
         bottom:25%;
+    }
+    
+}
+
+@media(max-width:576px){
+    #override #logo-demo{
+        height:60px;
     }
 }
