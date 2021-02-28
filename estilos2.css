@@ -1,0 +1,73 @@
+/*GLOBAL*/
+#override h1{
+    text-align: center;
+    font-size:32px;
+    padding: 20px 0px;
+    font-weight: bold;
+}
+
+/*Sección 1*/
+#override #seccion-1 #imagen{
+    width:600px;
+    float:left;
+    margin-right:20px;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+#override #seccion-1 #imagen:hover{
+    transform: translateY(-5px);
+}
+#override #seccion-1 p{
+    padding:0;
+}
+#override #seccion-1{
+    background-color: #216869;
+    color:#d8d8d8;
+    padding-bottom: 30px;
+}
+
+/*Sección 2*/
+#override #seccion-2{
+    background-color: #21295c;
+    color:#d8d8d8;
+    padding-bottom: 30px;
+}
+#override #seccion-2 img{
+    width:100%;
+    margin:0 auto;
+}
+#override .caja{
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+#override .caja:hover{
+    transform: translateY(-5px);
+    background-color: rgba(63,81,198,0.8);
+}
+#override p.nombre{
+    margin:0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+#override p.cargo{
+    margin:0;
+    text-align: center;
+    font-size: 16px;
+}
+#override .datos{
+    background-color: #49a078;
+    width: 90%;
+    padding:5px;
+    margin:0 auto;
+    border-radius: 5px;
+}
+/*MEDIA QUERIES*/
+@media(max-width:992px){
+    #override #seccion-1 #imagen{
+        width:100%;
+        float:none;
+        margin:0 auto 20px auto;
+    }
+}
