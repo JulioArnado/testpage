@@ -8,7 +8,7 @@
 /*Sección 1*/
 #override #seccion-1{
     background-color: #21295c;
-    color:#d8d8d8;
+    color:#fff;
     padding-bottom: 20px;
 }
 #override #seccion-1 img{
@@ -37,7 +37,7 @@
 }
 #override #seccion-3{
     background-color: #216869;
-    color:#d8d8d8;
+    color:#fff;
     padding-bottom: 20px;
 }
 

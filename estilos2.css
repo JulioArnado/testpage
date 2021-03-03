@@ -22,14 +22,14 @@
 }
 #override #seccion-1{
     background-color: #216869;
-    color:#d8d8d8;
+    color:#fff;
     padding-bottom: 30px;
 }
 
 /*Sección 2*/
 #override #seccion-2{
     background-color: #21295c;
-    color:#d8d8d8;
+    color:#fff;
     padding-bottom: 30px;
 }
 #override #seccion-2 img{
