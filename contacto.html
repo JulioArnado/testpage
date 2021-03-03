@@ -42,11 +42,12 @@
         <!-- NAVBAR END -->
         <main>            
             <!-- CONTENT START -->
-            <section id="seccion-contacto" class="animate__animated animate__fadeIn">  
+            <section id="seccion-contacto">  
                 <div class="container">
                     <div class="row" id="contacto">
+                       <!-- TARJETA DE CONTACTO -->
                         <div class="col-12 col-md-6 mx-auto">
-                            <div class="tarjeta-contacto">
+                            <div class="tarjeta-contacto animate__animated animate__fadeIn animate__slower">
                                 <h1>Contáctanos</h1>
                                 <h2><img src="img/logo/email.svg" alt="email-logo"> Email:</h2>
                                 <p>demo@testmail.com</p>
@@ -56,19 +57,21 @@
                                 <p>Av. El Progreso N° 123, Cusco, Perú</p>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6">
+                        <!-- FORMULARIO -->
+                        <div class="col-12 col-md-6 animate__animated animate__fadeIn animate__slower">
                             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjuxdiq6E8VdvHL4Hg9JOZD1TH8idB-v-tymeAm24TWFBbig/viewform?embedded=true" id="formulario-contacto">Cargando…</iframe>
                         </div>
                     </div>
+                    <!-- MAPA -->
                     <div class="row">
                         <div class="col-12">
-                           <div class="titulo-mapa">
+                           <div class="titulo-mapa animar">
                                <h1>Ubícanos</h1>
                            </div>                            
                         </div>
                     </div>
                     <div class="row">                        
-                        <div class="col-12">
+                        <div class="col-12 animar">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26097.18751789826!2d-71.96443927338558!3d-13.512862271215624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916dd66e7c08a8fd%3A0x9e3cb8b1e4c3803c!2sSaqsaywaman!5e0!3m2!1ses!2spe!4v1614546685133!5m2!1ses!2spe" allowfullscreen="" loading="lazy" id="mapa"></iframe>
                         </div>                        
                     </div>
@@ -107,5 +110,10 @@
         </footer>
         <script src="bootstrap/bootstrap.bundle.js"></script>
         <script src="bootstrap/jquery-3.5.1.js"></script>
+        <script src="codigo.js"></script>
+        <script>            
+            //Activar animaciones para el resto de secciones
+            activarAnimacion("animar","animate__animated", "animate__fadeIn");
+        </script>  
     </body>
 </html>
